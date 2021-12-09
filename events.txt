@@ -1,0 +1,4 @@
+So for my website I plan on using a click event
+the click event might be something simple like when you click on the corner box of the website you'll see some circles pop up almost like a little fun on the corner of my website
+for the animation, I may do a Hi! Welcome To My Website and have it bounce back and fourth on the top of the screen
+On the bottom of my website I'm going to add a hero image that says on top of it "Thank you for visiting my site"

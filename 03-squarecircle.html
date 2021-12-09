@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>square and circle</title>
+</head>
+<body onload="draw()">
+
+	<canvas id="sketch" width="600" height="600" style="border: 1px solid #E6E6E6;"></canvas>
+
+	<script>
+		function draw() {
+		 	var sketch = document.getElementById('sketch');
+			var context = sketch.getContext("2d");
+
+            context.fillStyle = "#B3DAF1";
+
+            context.fillRect(15, 15, 200, 200);
+
+            context.beginPath();
+            context.arc(330, 65, 50, 0, 2 * Math.PI, true);
+            context.closePath();
+            context.fill();
+
+
+
+
+
+		}
+
+	</script>
+
+</body>
+</html>
